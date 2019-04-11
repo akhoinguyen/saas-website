@@ -1,0 +1,11 @@
+.thumbnail {
+display: inline-block;
+overflow: hidden;
+  width: 6em;
+}
+
+.article-title {
+  display: inline-block;
+  vertical-align: top;
+  width: 67%;
+}
