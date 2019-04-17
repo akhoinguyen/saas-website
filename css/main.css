@@ -1,5 +1,4 @@
 /* Header */
-
 header ul {
 background-color: #102640;
 }
@@ -14,7 +13,6 @@ header li:last-child {
 
 header a {
   text-decoration: none;
-  color: #ff4b4b;
 }
 
 header a:hover {
@@ -23,27 +21,22 @@ color: #fff;
 
 h1 {
   position: absolute;
-  left: 2em;
-  top: 4em;
-  color: #ff4b4b;
+  left: 2rem;
+  top: 6rem;
 }
 
 .banner p {
   position: absolute;
-  left: 4em;
-  top: 10em;
+  left: 2rem;
+  top: 10rem;
   color: #fff;
 }
 
 
 /*Main*/
-h2 {
-color: #ff4b4b;
-}
-
 .banner {
   overflow: hidden;
-  max-height: 20em;
+  max-height: 20rem;
 }
 
 .thumbnail {
@@ -62,7 +55,16 @@ overflow: hidden;
   background-color: #fff188;
 }
 
+.btn {
+background-color: #ff4b4b;
+border-color: #ff4b4b;
+}
 footer {
   background-color: #102640;
   color: #fff;
+}
+
+/* Appearance */
+.red-text {
+  color: #ff4b4b;
 }
