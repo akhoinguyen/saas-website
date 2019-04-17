@@ -2,15 +2,23 @@
 
 header ul {
 background-color: #102640;
-color: #ff4b4b;
 }
 
-nav li {
+header li:first-child {
+  padding-left: 1em;
+}
+
+header li:last-child {
+  padding-right: 1em;
+}
+
+header a {
   text-decoration: none;
+  color: #ff4b4b;
 }
 
-nav li:hover {
-color: green;
+header a:hover {
+color: #fff;
 }
 
 .banner {
