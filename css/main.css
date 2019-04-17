@@ -1,4 +1,4 @@
-/*Header*/
+/* Header */
 
 header ul {
 background-color: #102640;
@@ -21,6 +21,26 @@ header a:hover {
 color: #fff;
 }
 
+h1 {
+  position: absolute;
+  left: 2em;
+  top: 4em;
+  color: #ff4b4b;
+}
+
+.banner p {
+  position: absolute;
+  left: 4em;
+  top: 10em;
+  color: #fff;
+}
+
+
+/*Main*/
+h2 {
+color: #ff4b4b;
+}
+
 .banner {
   overflow: hidden;
   max-height: 20em;
@@ -36,4 +56,13 @@ overflow: hidden;
   display: inline-block;
   vertical-align: top;
   width: 67%;
+}
+
+.join {
+  background-color: #fff188;
+}
+
+footer {
+  background-color: #102640;
+  color: #fff;
 }
