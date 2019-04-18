@@ -63,12 +63,32 @@ h1 {
 background-color: #ff4b4b;
 border-color: #ff4b4b;
 }
+
 footer {
   background-color: #102640;
   color: #fff;
 }
 
 /* Appearance */
+
 .red-text {
   color: #ff4b4b;
+}
+
+.yellow-text {
+  color: #fff188;
+}
+
+.white-text {
+  color: #fff;
+}
+
+/* Other pages */
+
+.promote-urself {
+  background-color: #2c4b74;
+}
+
+.our-strengths {
+  background-color: #102640;
 }
