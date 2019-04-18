@@ -86,9 +86,19 @@ footer {
 /* Other pages */
 
 .promote-urself {
-  background-color: #2c4b74;
+  background-color: #102640;
 }
 
 .our-strengths {
-  background-color: #102640;
+  background-color: #2c4b74;;
+  max-height: 24em;
+  margin-bottom: 8rem;
+}
+
+.table {
+  background-color: #fff188;
+}
+
+.copyright {
+  background-color: #ff4b4b;
 }
