@@ -2,6 +2,15 @@ html {
   font-family: Raleway, sans-serif;
 }
 /* Header */
+.skip-links {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links:focus {
+  top: 1em;
+}
+
 .blue-bg {
   background-color: #102640;
 }
@@ -69,8 +78,8 @@ h1 {
 }
 
 .btn {
-  background-color: #ff4b4b;
-  border-color: #ff4b4b;
+  background-color: #d01f1f;
+  border-color: #d01f1f;
 }
 
 footer {
@@ -79,12 +88,16 @@ footer {
 }
 
 .copyright {
-  background-color: #ff4b4b;
+  background-color: #d01f1f;
 }
 
 /* Appearance */
 
 .red-text {
+  color: #d01f1f;
+}
+
+.light-red-text {
   color: #ff4b4b;
 }
 
@@ -113,11 +126,11 @@ footer {
 }
 
 .price-card-2 {
-  border: 4px solid #ff4b4b;
+  border: 4px solid #d01f1f;
 }
 
 .price-card-3 {
-  background-color: #ff4b4b;
+  background-color: #d01f1f;
 }
 
 @media only screen and (min-width: 38em) {
