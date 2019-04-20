@@ -11,8 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Paytone+One|Raleway:400,700" rel="stylesheet">
 </head>
 <body>
+  <ul class="visually-hidden skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+  </ul>
   <header role="banner">
-    <nav role="navigation">
+    <nav role="navigation" id="nav">
       <ul class="list-group-inline push-0 pad-b-1-2 pad-t-1-2 blue-bg">
         <li class="gutter-1-4"><a href="#" class="red-text">Home</a></li>
         <li class="gutter-1-4"><a href="tour.html" class="red-text">Product</a></li>
@@ -25,10 +29,11 @@
       <img class="img-flex img-banner" src="images/spotlight.jpg" alt="">
       <h1 class="h1-banner red-text">BRING YOUR MUSIC TO THE PUBLIC.</h1>
       <p>Join the fastest growing community for young artists.</p>
+      <a href="#main" class="white-text micro">learn more</a>
     </div>
   </header>
 
-  <main role="main">
+  <main role="main" id="main">
     <section>
       <h2 class="gutter red-text">What's hot in the community</h2>
       <div class="card-group gutter grid">
@@ -69,8 +74,8 @@
         <figcaption></figcaption>
       </figure>
       <p class="gutter pad-t center-text push-1-2 red-text"> So, ready to join us?</p>
-      <div class="center-text push"><a href="#" class="btn">Yes, Sign me up!</a></div>
-      <p class="gutter">&ast;When sign up with either plans you will begin a 15-day trial period. After free trial, you will be charged monthly according to your chosen plan. See more on Products page.</p>
+      <div class="center-text push"><a href="sign-up.html" class="btn">Yes, Sign me up!</a></div>
+      <p class="gutter micro">&ast;When sign up with either plans you will begin a 15-day trial period. After free trial, you will be charged monthly according to your chosen plan. See more on Products page.</p>
     </section>
   </main>
 

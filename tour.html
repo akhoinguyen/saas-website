@@ -11,8 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Paytone+One|Raleway:400,700" rel="stylesheet">
 </head>
 <body>
+  <ul class="visually-hidden skip-links">
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+  </ul>
   <header role="banner">
-    <nav role="navigation">
+    <nav role="navigation" id="nav">
       <ul class="list-group-inline push-0 pad-b-1-2 pad-t-1-2 blue-bg">
         <li class="gutter-1-4"><a href="index.html" class="red-text">Home</a></li>
         <li class="gutter-1-4"><a href="#" class="red-text">Product</a></li>
@@ -27,7 +31,7 @@
       <p>Doing business with the help of Decibel is better than ever.</p>
     </div>
   </header>
-  <main>
+  <main role="main" id="main">
     <section class="gutter">
       <p class="red-text">We care about your success. Start your music career with the help of specialists from Decibel and partners!</p>
       <h2 class="red-text">What We Provide</h2>
@@ -90,8 +94,8 @@
         <caption></caption>
         <thead>
           <tr>
-            <th class="red-text">Decibel</th>
-            <th>our competitors</th>
+            <th scope="col" class="red-text">Decibel</th>
+            <th scope="col">our competitors</th>
           </tr>
         </thead>
         <tbody>
@@ -120,7 +124,7 @@
         <figcaption></figcaption>
       </figure>
     </section>
-    <div class="center-text push-2"><a class="btn" href="#">SIGN UP NOW!</a></div>
+    <div class="center-text push-2"><a class="btn" href="sign-up.html">SIGN UP NOW!</a></div>
   </main>
   <footer role="contentinfo" class="grid pad-t">
     <div class="center-text unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 push">

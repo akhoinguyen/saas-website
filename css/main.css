@@ -39,6 +39,12 @@ h1 {
   color: #fff;
 }
 
+.banner a {
+  position: absolute;
+  left: 2rem;
+  top: 12rem;
+  text-decoration: underline;
+}
 
 /* Main */
 .banner {
@@ -107,7 +113,7 @@ footer {
 }
 
 .price-card-2 {
-border: 4px solid #ff4b4b;
+  border: 4px solid #ff4b4b;
 }
 
 .price-card-3 {
@@ -120,9 +126,9 @@ border: 4px solid #ff4b4b;
     margin-bottom: 6rem;
   }
 
-.price-card-3 {
-  margin-right: 50%;
-}
+  .price-card-3 {
+    margin-right: 50%;
+  }
 
 }
 
